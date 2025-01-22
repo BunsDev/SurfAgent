@@ -3,10 +3,12 @@ from langchain.prompts import PromptTemplate
 from configure.config_llm import configure_llm
 from config.log import logger
 import sys
+from test.test_model import test_model_provider
 
 def configure_llama():
     """Configure model and prompt based on user's choice."""
     provider = ModelProvider.get_provider_choice()
+    if not test_model_provider(provider):
         logger.error(f"Failed to initialize {provider} models")
         sys.exit(1)
     llm = configure_llm(provider)
