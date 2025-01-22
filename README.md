@@ -1,7 +1,7 @@
 
-# 🌐 **SurfAgent: The Ultimate Web Search and Analysis Agent**
+# 🌐 **SurfAgent: The  Web Search and Analysis Agent**
 
-SurfAgent is a sophisticated **CLI-based agent**, meticulously crafted to revolutionize web searches. Powered by **Selenium** and **Brave Search**, SurfAgent extracts relevant information and even analyzes images related to your queries, leveraging state-of-the-art **Llama Vision Models**. These models are compatible with **GROQ** or **OLLAMA**, offering seamless integration.
+SurfAgent is a sophisticated **CLI-based agent** built from scratch. Powered by **Selenium** and **Brave Search**, SurfAgent extracts relevant information and even analyzes images related to your queries and **quotes** Sources of that information in the form of links as well, leveraging state-of-the-art **Llama Vision Models**. These models are compatible with **GROQ** or **OLLAMA**, offering seamless integration.
 
 ---
 
@@ -38,9 +38,23 @@ Utilizes **LangChain tools** to enhance automation and analytical capabilities.
 
 To get started with SurfAgent, follow these simple steps:
 
-### 🛠️ **Step 1: Install the Required Dependencies**
+### 🛠️ **Step 1: Clone the Repository**
 
-First, you'll need to install the required libraries. Open your terminal or command prompt and run the following command to install all dependencies:
+First, clone the SurfAgent repository from GitHub to your local machine. Open your terminal or command prompt and run the following command:
+
+```bash
+git clone https://github.com/Haseebasif7/SurfAgent.git
+```
+
+### 🛠️ **Step 2: Install the Required Dependencies**
+
+Navigate to the `SurfAgent` directory:
+
+```bash
+cd SurfAgent
+```
+
+Then, install the required libraries by running:
 
 ```bash
 pip install -r requirements.txt
@@ -48,9 +62,20 @@ pip install -r requirements.txt
 
 This will install the necessary packages, including **Selenium**, **Brave Search**, **Llama Vision Models**, **LangChain**, and more.
 
-### 🖥️ **Step 2: Run the SurfAgent**
+### 🔑 **Step 3: Set Up Environment Variables**
 
-Once the dependencies are installed, you're ready to run SurfAgent. Execute the following command to start the agent:
+Create a `.env` file in the root directory of the SurfAgent project and add your API keys for **GROQ** and **Brave Search**:
+
+```env
+GROQ_API_KEY="your_groq_api_key"
+BRAVE_API_KEY="your_brave_api_key"
+```
+
+Make sure to replace `"your_groq_api_key"` and `"your_brave_api_key"` with your actual API keys.
+
+### 🖥️ **Step 4: Run the SurfAgent**
+
+Once the dependencies are installed and environment variables are set, you're ready to run SurfAgent. Execute the following command to start the agent:
 
 ```bash
 python main.py
@@ -60,14 +85,10 @@ SurfAgent will now initialize, begin processing web searches, and provide result
 
 ---
 
-### 🧑‍💻 **Troubleshooting**
+### 🧑‍💻 **Troubleshooting && Contributions**
 
-If you encounter any issues during installation or running, make sure:
+If you encounter any issues during installation or want to add some new feature, feel free to :
 
-- You're using a Python environment with the necessary permissions.
-- All dependencies are properly installed by checking the **requirements.txt**.
-- Open Issue in thr repo
+- Open an Issue or Open an Pull Request to Contribute
 
 ---
-
-That's it! You're all set to explore the powerful features of SurfAgent! 🌐🚀
