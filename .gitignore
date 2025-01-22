@@ -1,3 +1,6 @@
+agent_memory.json
+HOSTS.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

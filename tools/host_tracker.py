@@ -3,7 +3,7 @@ from urllib.parse import urlparse
 import os
 
 class HostTracker:
-    def __init__(self, filename="problematic_hosts.txt"):
+    def __init__(self, filename="HOSTS.txt"):
         self.filename = filename
         self.failed_hosts = set()
         self.load_failed_hosts()
