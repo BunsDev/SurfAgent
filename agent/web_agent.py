@@ -378,7 +378,7 @@ class WebAgent:
         additional_info = self.fetch_additional_info(topic)
         
         enhanced_prompt = f"""
-        Generate a comprehensive report based on the research findings.
+        Generate a  report based on the research findings.
         Focus on the most relevant and current information.
         
         Topic: {topic}

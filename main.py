@@ -9,6 +9,9 @@ from langchain_community.tools import BraveSearch, WikipediaQueryRun
 from langchain_community.utilities.wikipedia import WikipediaAPIWrapper
 from agent.web_agent import WebAgent
 import time
+import warnings
+
+warnings.filterwarnings("ignore")
 
 def print_banner():
     banner = """
