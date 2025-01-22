@@ -1,0 +1,11 @@
+langchain
+langchain_community
+langchain_ollama
+langchain_groq
+requests
+beautifulsoup4
+pytz
+selenium
+webdriver_manager
+pillow
+geocoder
