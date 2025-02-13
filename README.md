@@ -29,6 +29,8 @@ SurfAgent keeps a record of problematic hosts in a `HOSTS.txt` file, ensuring th
 ### 🖼️ Image Analysis
 Integrates advanced image processing capabilities by fetching relevant images based on user input or context, then passing these images to **Llama Vision Models**. These models analyze the images to extract key information, such as text, objects, patterns, or any visual data present, and process it to generate meaningful insights or responses.
 
+<img src="extras/pawelzmarlak-2025-02-13T06_51_12.773Z.png" alt="ALT TEXT" width="750">
+
 ### 🔗 LangChain Integration
 Utilizes **LangChain tools** to enhance automation and analytical capabilities.
 
